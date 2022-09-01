@@ -1,0 +1,57 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+h4{
+  margin-bottom: 0;
+}
+h5, h4{
+  font-size: 18px;
+  font-family: 'Kumbh Sans', sans-serif;
+  font-weight: 700;
+}
+p, span{
+  color: hsl(227, 10%, 46%);
+  font-family: 'Kumbh Sans', sans-serif;
+  font-weight: 400;
+}
+body{
+  background-color: hsl(185, 75%, 39%);
+}
+.backgroundTop{
+  position: absolute;
+}
+.backgroundBottom{
+  position: absolute;
+}
+.card{
+  border: none;
+  margin: 12% 0 0 0;
+  text-align: center;
+  max-width: 360px;
+  border-radius: 10px 10px 10px 10px;
+}
+.cardBack{
+  border-radius: 10px 10px 0 0;
+
+}
+.card-body{
+  padding-top: 18%;
+}
+.card-footer:last-child{
+  border-radius: 0 0 10px 10px;
+  background-color: #fff;
+
+}
+
+.profilePic{
+  border-radius: 50%;
+  position: absolute;
+  margin: 28% 0 0 38%;
+  border: 5px solid;
+  border-color: #fff;
+}
+.stats{
+  float: left;
+}
+.marginR{
+  margin: 5% 8% 1% 8%;
+}

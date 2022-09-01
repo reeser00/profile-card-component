@@ -5,31 +5,48 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Profile card component</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+
+  <title>Frontend Mentor | Profile card component</title>
 </head>
 <body>
-  Victor Crest
-  26
-  London
+  <div class="container">
+    <div class="card mx-auto">
+      <img class="cardBack" src="images/bg-pattern-card.svg" alt="background-card">
+      <img class="profilePic" src="images/image-victor.jpg" alt="profile-picture">
+      <div class="card-body">
+        <h5>Victor Crest<span> 26</span></h5>
+        <p>London</p>
+      </div>
+      <div class="card-footer">
+        <div class="stats marginR">
+          <h4>80K</h4>
+          <p>Followers</p>
+        </div>
+        <div class="stats marginR">
+          <h4>803K</h4>
+          <p>Likes</p>
+        </div>
+        <div class="stats marginR">
+          <h4>1.4K</h4>
+          <p>Photos</p>
+        </div>
+      </div>
 
-  80K
-  Followers
+    </div>
+  </div>
 
-  803K
-  Likes
-
-  1.4K
-  Photos
   <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">reeser00</a>.
   </div>
 </body>
 </html>
